@@ -1,0 +1,45 @@
+/* ==========================================================================
+   App.css - Estilos principales de la aplicación
+   ========================================================================== */
+
+/* 
+   Este archivo no contiene estilos específicos ya que cada página tiene sus 
+   propios estilos. Si es necesario agregar estilos globales, considerar 
+   utilizar este archivo.
+
+   !Tener en cuenta que poner estilos aca afectara a TODAS las paginas no a 1 a TODAS!
+*/
+
+/* ==========================================================================
+   Estructura del Proyecto
+   ========================================================================== */
+
+/*
+   /src
+      /components
+         - Componentes reutilizables de la aplicación.
+      /img
+         - Imágenes utilizadas en la aplicación.
+      /pages
+         - Páginas individuales de la aplicación.
+      /routes
+         - Configuración del enrutador de la aplicación.
+      App.jsx
+         - Punto de entrada principal de la aplicación.
+ */
+/* ==========================================================================
+   Configuración del Enrutador
+   ========================================================================== */
+
+/*
+   /routes
+      Approuter.jsx
+         - Este archivo contiene la configuración del enrutador de la aplicación.
+         - Define las rutas y los componentes asociados a cada ruta.
+         - No modificar a menos que sea necesario cambiar la estructura de rutas.
+*/
+
+/*
+   NOTA: Para cambios en el contenido de una página, dirigirse a la carpeta /pages.
+   La lógica de enrutamiento debe mantenerse en Approuter.jsx.
+*/

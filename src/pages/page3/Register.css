@@ -1,0 +1,85 @@
+/* Reset de estilos y estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del fondo */
+.bdy-wall {
+    background-image: url('../../img/login.jpeg');
+    background-size: cover; /* En lugar de "fixed" para cubrir todo el contenedor */
+    width: 100%;
+    height: 100vh; /* 100% de la altura de la ventana */
+}
+
+/* Estilos del contenedor del formulario */
+.contenedor-login {
+    background-color: hsl(0, 0%, 17%, 0.70);
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around; /* Cambiado de space-between a space-around */
+    align-items: center;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 1290px;
+}
+
+/* Estilos del título del formulario */
+.tit1-login {
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Estilos de las etiquetas y campos del formulario */
+.label-login {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-login {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos de las columnas del formulario */
+.form-column {
+    width: 48%; /* Ajusta el ancho según tus necesidades */
+}
+
+.form-column2 {
+    width: 48%; /* Ajusta el ancho según tus necesidades */
+}
+
+/* Estilos del botón del formulario */
+.btn-login {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    padding: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn-login:hover {
+    background-color: #45a049;
+}
+
+/* Estilos del formulario */
+.formulario-login {
+    display: flex;
+    justify-content: space-between; /* Añadido para separar las columnas */
+    width: 100%;
+    max-width: 1000px; /* Ajusta el ancho según tus necesidades */
+    gap: 30px;
+}
+

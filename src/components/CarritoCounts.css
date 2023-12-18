@@ -1,0 +1,20 @@
+.shopping-cart-icon{
+    width: 70px;
+    height: 70px;
+    margin-top: 5px; /* Ajusta la posición vertical según tus necesidades */
+    border-radius: 100px;
+    position: relative; /* El contenedor padre debe tener position: relative */
+    left: 1600px;
+  }
+
+.contador-carrito {
+    position: absolute;
+    top: 80px;
+    right: 8px;
+    background-color: #0dfc29; /* Color de fondo para el número */
+    color: #ffffff; /* Color del texto del número */
+    border-radius: 50%;
+    padding: 5px 8px;
+    font-size: 14px;
+    font-weight: bold;
+  }

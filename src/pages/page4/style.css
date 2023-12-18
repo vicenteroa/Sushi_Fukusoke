@@ -1,0 +1,27 @@
+.body-index {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../../img/contents/fondo.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+
+#cuenta-carrito{
+    background-color: rgb(111, 228, 76);
+    border-radius: 100%;
+    display: inline-block;
+    width: 20px;
+    aspect-ratio: 1;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+}
+
+.foot-index {
+    margin-top: auto;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.104);
+    text-align: center;
+}

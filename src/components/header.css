@@ -1,0 +1,62 @@
+
+ /* HEADER */
+ .header-with-background {
+    
+     width: 100%;
+     height: 600px;
+     position: fixed;
+     background: -webkit-linear-gradient(to right, hsla(113, 88%, 53%, 0.89), hsla(55, 91%, 50%, 0.664)),url(../img/sushi.png);
+     background: linear-gradient(to right, hsla(113, 5%, 53%, 0.89), hsla(55, 5%, 50%, 0.664)),url(../img/sushi.png);
+     position: relative;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+ 
+ /* LOGO */
+ .logo_principal {
+    border-radius: 50%; /* Reducido a la mitad para que siga siendo redondeado */
+    width: 50px;
+ }
+ 
+ .header_pag {
+     background-color: #333; 
+     color: white; 
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 20px; 
+ }
+ 
+ /* Estilo de los enlaces de navegación */
+ .nav_links a {
+     color: white;
+     text-decoration: none; 
+     margin-left: 20px; 
+ }
+ 
+ /* Estilo para los enlaces al pasar el cursor por encima */
+ .nav_links a:hover {
+     text-decoration: underline;
+ }
+ 
+ .slogan {
+   color: #fff;
+   font-family: 'Oswald', sans-serif;
+   font-family: 'Preahvihear', sans-serif;  
+   position: absolute;
+   top: 27px;
+   left: 70px;
+ }
+ 
+ .tit1 {
+    position: relative;
+    top: 200px;
+    font-size: 75px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    width: 100%;
+ }
+
+
+  

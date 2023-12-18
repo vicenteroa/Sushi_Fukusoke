@@ -1,0 +1,110 @@
+/*BODY*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.bdy-wall
+{
+    background-image: url('../../img/login.jpeg');
+    background-size: fixed;
+    width: 100%;
+    height: 860px;
+}
+
+.contenedor-login
+{
+    background-color: hsl(0, 0%, 17%,0.8);
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+    margin: 40px auto;
+    max-width: 500px;
+}
+
+.tit1-login
+{
+    color: white;
+}
+
+/* Reset de estilos y estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del fondo */
+.bdy-wall {
+    background-image: url('../../img/login.jpeg');
+    background-size: fixed;
+    width: 100%;
+    height: 860px;
+}
+
+/* Estilos del contenedor del formulario */
+.contenedor-login {
+    background-color: hsl(0, 0%, 17%, 0.70);
+    border-radius: 20px; /* Reduje el valor del radio para que se vea más sutil */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centrar horizontalmente los elementos del formulario */
+    height: 70vh;
+    margin: 40px auto;
+    max-width: 500px;
+}
+
+/* Estilos del título del formulario */
+.tit1-login {
+    color: white;
+    margin-bottom: 20px; /* Añadí un espacio inferior para separar el título de los campos */
+}
+
+/* Estilos de las etiquetas y campos del formulario */
+.label-login {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-login {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px; /* Añadí un espacio inferior para separar los campos */
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Añadí un borde para resaltar los campos */
+    border-radius: 5px;
+}
+
+/* Estilos del botón del formulario */
+.btn-login {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-register {
+    background-color: #e65322;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-login:hover {
+    background-color: #45a049;
+}
+

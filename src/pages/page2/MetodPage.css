@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body-pay {
+  background-image: url('../../img/wallpaper.jpg');
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+.metod-container {
+  /* Agregué estilos generales para todo el contenido */
+  max-width: 100%;
+}
+
+/* Estilos para la sección del carrito */
+#carrito {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  padding: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#lista-carrito {
+  list-style-type: none;
+}
+
+#total-carrito {
+  font-weight: bold;
+  color: #4CAF50; /* Cambié el color del texto para resaltar */
+}
+
+/* Estilos para la sección del método de pago */
+#metodo-pago {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  padding: 70px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Estilos para la sección de entrega a domicilio */
+#entrega {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  padding: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Estilos para los botones */
+  /* Estilos para los botones */
+  button {
+    background-color: #4CAF50; /* Cambia el color del botón según tu diseño */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estilos para el pie de página */
+.final_page {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
